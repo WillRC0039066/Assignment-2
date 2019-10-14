@@ -53,7 +53,7 @@ namespace Assignment_2
                 SR3 = 0.0;
                 // if input given is not a number then it will be seen as an error//
             }
-            double resistance = SR1 = SR2;
+            double resistance = SR1 + SR2 + SR3;
             label4.Text = "R Total =" + resistance;
             //This is used to calculate the total resistance//
         }
