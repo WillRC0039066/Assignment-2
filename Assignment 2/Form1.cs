@@ -49,6 +49,16 @@ namespace Assignment_2
                 // if input given is not a number then it will be seen as an error//
 
             }
+            try
+            {
+                PR3 = double.Parse(textBox6.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Invaled Input");
+                PR3 = 0.0;
+                // if input given is not a number then it will be seen as an error//
+            }
 
 
 
