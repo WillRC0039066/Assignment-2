@@ -96,7 +96,9 @@ namespace Assignment_2
                 PR3 = 0.0;
                 // if input given is not a number then it will be seen as an error//
             }
-
+            double resistance = 1 / ((1 / PR1) + (1 / PR2) + (1 / PR3));
+            label8.Text = "R Total =" + resistance;
+            //This is used to calculate the total resistance//
 
 
 
