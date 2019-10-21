@@ -100,9 +100,74 @@ namespace Assignment_2
             label8.Text = "R Total =" + resistance;
             //This is used to calculate the total resistance//
 
+                       
 
+        }
 
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            double SR1, SR2;
+            // shows when each text box is being used in each set of code// 
 
+            try
+            {
+                SR1 = double.Parse(textBox1.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Invaled Input");
+                SR1 = 0.0;
+                // if input given is not a number then it will be seen as an error//
+
+            }
+            try
+            {
+                SR2 = double.Parse(textBox2.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Invaled Input");
+                SR2 = 0.0;
+                // if input given is not a number then it will be seen as an error//
+            }
+           
+            double resistance = SR1 + SR2;
+            label9.Text = "R Total =" + resistance;
+            //This is used to calculate the total resistance//
+
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            double PR1, PR2;
+            // shows when each text box is being used in each set of code// 
+
+            try
+            {
+                PR1 = double.Parse(textBox7.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Invaled Input");
+                PR1 = 0.0;
+                // if input given is not a number then it will be seen as an error//
+
+            }
+            try
+            {
+                PR2 = double.Parse(textBox5.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Invaled Input");
+                PR2 = 0.0;
+                // if input given is not a number then it will be seen as an error//
+
+            }
+           
+            double resistance = 1 / ((1 / PR1) + (1 / PR2));
+            label10.Text = "R Total =" + resistance;
+            //This is used to calculate the total resistance//
 
         }
     }
