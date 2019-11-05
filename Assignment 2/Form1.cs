@@ -28,7 +28,7 @@ namespace Assignment_2
             }
             catch
             {
-                MessageBox.Show("Invaled Input");
+                MessageBox.Show("Invalid Input");
                 SR1 = 0.0;
                 // if input given is not a number then it will be seen as an error//
 
@@ -39,7 +39,7 @@ namespace Assignment_2
             }
             catch
             {
-                MessageBox.Show("Invaled Input");
+                MessageBox.Show("Invalid Input");
                 SR2 = 0.0;
                 // if input given is not a number then it will be seen as an error//
             }
@@ -49,7 +49,7 @@ namespace Assignment_2
             }
             catch
             {
-                MessageBox.Show("Invaled Input");
+                MessageBox.Show("Invalid Input");
                 SR3 = 0.0;
                 // if input given is not a number then it will be seen as an error//
             }
@@ -70,7 +70,7 @@ namespace Assignment_2
             }
             catch
             {
-                MessageBox.Show("Invaled Input");
+                MessageBox.Show("Invalid Input");
                 PR1 = 0.0;
                 // if input given is not a number then it will be seen as an error//
                             
@@ -81,7 +81,7 @@ namespace Assignment_2
             }
             catch
             {
-                MessageBox.Show("Invaled Input");
+                MessageBox.Show("Invalid Input");
                 PR2 = 0.0;
                 // if input given is not a number then it will be seen as an error//
 
@@ -92,7 +92,7 @@ namespace Assignment_2
             }
             catch
             {
-                MessageBox.Show("Invaled Input");
+                MessageBox.Show("Invalid Input");
                 PR3 = 0.0;
                 // if input given is not a number then it will be seen as an error//
             }
@@ -115,7 +115,7 @@ namespace Assignment_2
             }
             catch
             {
-                MessageBox.Show("Invaled Input");
+                MessageBox.Show("Invalid Input");
                 SR1 = 0.0;
                 // if input given is not a number then it will be seen as an error//
 
@@ -126,7 +126,7 @@ namespace Assignment_2
             }
             catch
             {
-                MessageBox.Show("Invaled Input");
+                MessageBox.Show("Invalid Input");
                 SR2 = 0.0;
                 // if input given is not a number then it will be seen as an error//
             }
@@ -148,7 +148,7 @@ namespace Assignment_2
             }
             catch
             {
-                MessageBox.Show("Invaled Input");
+                MessageBox.Show("Invalid Input");
                 PR1 = 0.0;
                 // if input given is not a number then it will be seen as an error//
 
@@ -159,7 +159,7 @@ namespace Assignment_2
             }
             catch
             {
-                MessageBox.Show("Invaled Input");
+                MessageBox.Show("Invalid Input");
                 PR2 = 0.0;
                 // if input given is not a number then it will be seen as an error//
 
